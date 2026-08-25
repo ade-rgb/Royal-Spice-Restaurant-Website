@@ -1067,3 +1067,12 @@ box-shadow: 0  8px 18px rgba(0, 0, 0, 0.2);
     justify-content: center;
   }
 }
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+}
