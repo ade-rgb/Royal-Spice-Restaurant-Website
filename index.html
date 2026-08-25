@@ -23,6 +23,8 @@
         <img src="images/R.S.R logo.jpeg" alt="Royal Spice Restaurant">
         <span>Royal Spice Restaurant</span>
       </div>
+      <!-- Hamburger Button -->
+       <button class="menu-toggle" aria-label="Open navigation">☰</button>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -1487,7 +1489,12 @@ tables.forEach(table => {
     });
 
 });
+ const menuToggle = document.querySelector('.menu-toggle');
+  const navLinks = document.querySelector('.nav-links');
 
+  menuToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
 </script>
 
 
