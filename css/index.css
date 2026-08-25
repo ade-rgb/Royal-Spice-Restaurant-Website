@@ -1070,6 +1070,9 @@ box-shadow: 0  8px 18px rgba(0, 0, 0, 0.2);
 @media (max-width: 768px) {
   .nav-links {
     gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
   }
 
   .nav-links a {
