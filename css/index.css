@@ -292,16 +292,16 @@ transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s eas
     gap: 2rem;
 }
 /* Individual food card */
-.menu-card {
+/* .menu-card {
     background: white;
-    border-radius: 15px;
+    border-radius: 35px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease,
 
                 box-shadow 0.3s ease;
 
-}
+} */
 
 /* Food picture */
 .menu-card img {
@@ -365,7 +365,7 @@ box-shadow: 0  8px 18px rgba(0, 0, 0, 0.2);
 }
 .menu-card {
     background: white;
-    border-radius: 15px;
+    border-radius: 35px;
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
     display: flex;
