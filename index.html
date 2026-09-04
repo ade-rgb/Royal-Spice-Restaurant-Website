@@ -11,7 +11,7 @@
   <meta property="og:description" content="Where delicious flavors meet a royal dining experience.">
   <meta property="og:image" content="https://ade-rgb.github.io/Royal-Spice-Restaurant-Website/images/royal-spice-preview.jpeg">
   <meta property="og:image:alt" content="Royal Spice Restaurant Logo">
-  <meta property="og:url" content="https://ade-rgb.github.io/Royal-Spice-Restaurant-Website
+  <meta property="og:url" content="https://ade-rgb.github.io/Royal-Spice-Restaurant-Website">
   <meta property="og:type" content="website">
 </head>
 
@@ -89,10 +89,7 @@
             <div class="service-box">
               <img src="images/Special Occassions2.0.jpg" alt="Special Occasions">
               <h3>Special Occasions</h3>
-              <p>Whether you're celebrating a special occasion i.e birthdays, anniversaries,
-            having a family dinner, or simply craving
-            amazing food, we are committed to making every
-            visit memorable.</p>
+              <p>Birthdays, anniversaries, family dinner or simply craving amazing food, we are committed to making every visit memorable.</p>
             </div>
          </div>
 
@@ -102,7 +99,7 @@
        </a>
       </div>
   </section>
-  <!-- Section ends -->
+  <!-- Service Section ends -->
 
 <!-- ==========================
         MENU SECTION
@@ -155,7 +152,7 @@
     </button>
       <div class="menu-search">
     <input 
-        input type="text"
+        type="text"8
        id="menuSearch" 
         placeholder="Search for the meal of your choice here please....."
     >
@@ -664,13 +661,7 @@
               <h4>Banana Pudding</h4>
               <p>N12,000</p>
             </div>
-
-            <!-- <div class="menu-card">
-              <img src="images/Caramel Pudding.jpg" alt="Caramel Pudding">
-              <h4>Caramel Pudding</h4>
-              <p>N7,500</p>
-            </div> -->
-  
+           
             <div class="menu-card">
               <img src="images/Ice Cream Sundae with Sprinkles.jpg" alt="Ice Cream Sundae with Sprinkles">
               <h4>Ice Cream Sundae with Sprinkles</h4>
@@ -709,30 +700,6 @@
           <div class="menu-category" id="fast-food">
             <h3>Fast Food</h3>
             <div class="menu-grid">
-              
-              <!-- <div class="menu-card">
-                <img src="images/Chicken Burger.jpg" alt="Chicken Burger">
-                <h4>Chicken Burger</h4>
-                <p>N5,500</p>
-              </div>
-
-              <div class="menu-card">
-                <img src="images/Beef Burger with Fries and Ketchup.jpg" alt="Beef Burger">
-                <h4>Beef Burger</h4>
-                <p>N6,500</p>
-              </div>
-
-              <div class="menu-card">
-                <img src="images/Veggie Burgers.jpg" alt="Veggie Burgers">
-                <h4>Veggie Burgers</h4>
-                <p>N7,500</p>
-              </div>
-
-              <div class="menu-card">
-                <img src="images/Cheeseburgers.jpg" alt="Double Cheeseburgers">
-                <h4>Double Cheeseburger</h4>
-                <p>N8,000</p>
-              </div> -->
 
               <div class="menu-card">
                 <img src="images/R.S.R auto.jpeg" alt="Royal Chicken Nuggets">
@@ -1067,21 +1034,19 @@
 
              </div>
          </div>
+         </section>
    <!-- The Menu Ends Here -->
-
-  <!-- Reservation Section Begins Here -->
+        
+        <!-- Reservation Section Begins Here -->
+   <div class="reservation-footer-wrapper">
    <section id="reservations" class="reservation-section">
-
     <div class="reservation-content">
-
         <h2>Reserve Your Table</h2>
-
         <p>
             Join us at Royal Spice Restaurant and enjoy an unforgettable dining experience.
         </p>
-
+        
         <form class="reservation-form">
-
             <div class="form-group">
                 <label for="name">Full Name</label>
                 <input type="text" id="name" placeholder="Enter your name" required>
@@ -1138,12 +1103,9 @@
             </div>
 
              <div class="table-selection">
-
-    <h3>Choose Your Table</h3>
-
-    <p class="table-info">Select an available table for your reservation.</p>
-
-    <div class="tables">
+          <h3>Choose Your Table</h3>
+       <p class="table-info">Select an available table for your reservation.</p>
+       <div class="tables">
 
         <button type="button" class="table available">
             <span>Table 1</span>
@@ -1230,7 +1192,7 @@
             <small>4 Seats</small>
         </button>
 
-        <button type="button" class="table booked" disabled>
+        <button type="button" class="table booked" disabled>  
             <span>Table 18</span>
             <small>6 Seats</small>
         </button>
@@ -1286,12 +1248,10 @@
         <!-- Quick Links -->
         <div class="footer-column">
             <h3>Quick Links</h3>
-
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#menu">Menu</a>
             <a href="#reservations">Reservations</a>
-
         </div>
 
           <!-- Contact Us -->
@@ -1341,10 +1301,8 @@
     </div> -->
 
        <!-- Social Media -->
-<div class="footer-column">
-
+  <div class="footer-column">
     <h3>Follow Us</h3>
-
     <div class="social-icons">
 
         <a href="https://wa.me/2349153198684"
@@ -1368,54 +1326,18 @@
             <i class="fa-brands fa-snapchat"></i>
         </a>
     
-        <!-- <a href="#" class="get-help-btn">
-            Get Help
-           </a> -->
-      </div>
-    </div>
-    <!-- <div class="footer-bottom">
-    <p>© 2026 Royal Spice Restaurant. All Rights Reserved.</p> -->
 </div>
 </div>
 
  <div class="footer-bottom">
     <p>© 2026 Royal Spice Restaurant. All Rights Reserved.</p>
+ </div>
 
 </footer>
+</div>
 
 
-
- <!-- <script
-const categoryButtons = document.querySelectorAll(".category-btn");
-const menuCategories = document.querySelectorAll(".menu-category");
-
-categoryButtons.forEach(button => {
-
-    button.addEventListener("click", () => {
-     console.log("BUTTON CLICKED");
-        const selectedCategory = button.dataset.category;
-        console.log("Clicked:", selectedCategory);
-
-        // Remove active state from all buttons
-        categoryButtons.forEach(btn => {
-            btn.classList.remove("active");
-        });
-
-        // Hide all menu categories
-        menuCategories.forEach(category => {
-            category.classList.remove("active-category");
-        });
-
-        // Activate clicked button
-        button.classList.add("active");
-
-        // Show selected category
-        document
-            .getElementById(selectedCategory)
-            .classList.add("active-category");
-    });
-});
-  </script>   -->
+ 
    
    
    
