@@ -956,10 +956,22 @@ box-shadow: 0  8px 18px rgba(0, 0, 0, 0.2);
     padding: 20px;
   }
 
-  .form-row input {
+  .form-row {
+    width: 100%;
+    min-width: 0;
+}
+
+.form-row input {
+    flex: 1 1 0;
+    width: 0;
+    min-width: 0;
+    max-width: 100%;
+}
+ 
+  /* .form-row input {
     min-width: 0;
     width: 100%;
-}
+} */
 
   /* TABLES */
   .tables {
