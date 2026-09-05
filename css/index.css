@@ -956,6 +956,11 @@ box-shadow: 0  8px 18px rgba(0, 0, 0, 0.2);
     padding: 20px;
   }
 
+  .form-row input {
+    min-width: 0;
+    width: 100%;
+}
+
   /* TABLES */
   .tables {
     grid-template-columns: 1fr;
